@@ -1,7 +1,6 @@
 plugins {
 	id 'java-library'
 	id 'java'
-	id 'maven'
 }
 
 group = 'es.mde'
@@ -9,6 +8,7 @@ version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '1.8'
 
 repositories {
+	jcenter()
 	mavenCentral()
 	maven { url 'https://jitpack.io' }
 	
