@@ -2,6 +2,7 @@ plugins {
 	id 'java-library'
 	id 'java'
 	id 'eclipse'
+	id 'maven-publish'
 }
 
 group = 'es.mde'
