@@ -1,16 +1,17 @@
 plugins {
 	id 'java-library'
 	id 'java'
+	id 'eclipse'
 }
 
 group = 'es.mde'
-version = '1.0.3'
-sourceCompatibility = '1.8'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '11'
 
 repositories {
-	jcenter()
+	//jcenter()
 	mavenCentral()
-	maven { url 'https://jitpack.io' }
+	//maven { url 'https://jitpack.io' }
 	
 }
 
